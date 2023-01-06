@@ -1,0 +1,4 @@
+.name {
+    @include text (rem(14px), 500, $gray5, 121%);
+    font-size: $font-4;
+}

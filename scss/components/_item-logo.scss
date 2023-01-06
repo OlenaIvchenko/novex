@@ -1,0 +1,14 @@
+.item-logo {
+    cursor: pointer;
+
+}
+
+.icon-logo {
+height: 22px;
+width: auto;
+    @include media('tablet') {
+        height: 24px;
+        width: auto;
+    }
+
+}

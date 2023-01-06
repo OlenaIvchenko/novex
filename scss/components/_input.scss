@@ -1,0 +1,20 @@
+.input {
+    height: 52px;
+    border-radius: 100px;
+    padding: 0px 24px;
+    background-color: $white1;
+    font-family: $font-2;
+    @include text(rem(16px), 400, $gray3, 160%);
+    @include transition (border-color);
+    @include border;
+    @include input-placeholder {color: $gray1;}
+
+
+    &:hover{
+        border-color:$gray3;
+    }
+    
+    &:focus{
+        border-color: $primery;
+    }
+}

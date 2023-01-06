@@ -1,0 +1,11 @@
+.header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 98px;
+    @include flex(space-between, center);
+    @include media ('tablet') {
+        height: 103px;
+    }
+}

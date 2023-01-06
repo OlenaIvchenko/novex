@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+@import './normalize';
+@import './reset';
+@import './variables';
+@import './functions';
+@import './mixins';
+@import './common';
+
+@import './components/header';
+@import './components/navigation';
+@import './components/hero-section';
+@import './components/link';
+@import './components/input';
+@import './components/form';
+@import './components/title';
+@import './components/subtitle';
+@import './components/button';
+@import './components/arrow-button';
+@import './components/logo';
+
+@import './components/investor-section';
+@import './components/item-logo';
+
+@import './components/form-section';
+@import './components/feedback-section';
+@import './components/name';
+@import './components/border';
+@import './components/hiring-section';
+@import './components/add-button';
+@import './components/footer';
+@import './components/social';
+@import './components/bg-grey';

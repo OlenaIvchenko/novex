@@ -1,0 +1,21 @@
+.bg-grey {
+    background-color: $white2;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    @include margin-center;
+    &--none {
+      background-color: $white2;
+      @include media('tablet') {
+        background-color: $white;
+      }
+    }
+    &--footer {
+      padding-left: 0px;
+      padding-right: 0px;
+    @include media("tablet") {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    }
+  }

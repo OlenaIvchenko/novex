@@ -1,0 +1,12 @@
+.navigation {
+    display:  flex;
+    &__item {
+        &:not(:last-child) {
+            margin-right: 31px;
+            @include media ('tablet') {
+                margin-right: 47px;
+            }
+        }
+    }
+}
+

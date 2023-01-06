@@ -1,0 +1,28 @@
+.add-button {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: $gray3;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    @include media('tablet') {
+      top: 15%;
+      left: 20%; 
+    }
+    &--second {
+      left: 75%;
+      top: 79%;
+      @include media('tablet') {
+        left: 75%;
+        top: 65%;
+      }
+  
+    }
+      &__icon {
+        @include svg (14px, $white);
+      }
+  }

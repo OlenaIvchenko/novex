@@ -1,0 +1,19 @@
+.arrow-button{
+
+    background-color: $gray3;
+    
+    @include size(48px, true);
+    @include transition(background-color);
+    @include flex(center, center);
+
+    &:hover {
+        background-color: $primery;
+    }
+    &__icon {
+        @include svg(24px, $white);
+    }
+    display: none;
+    @include media ('tablet') {
+      display: flex;
+  }
+}

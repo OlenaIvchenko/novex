@@ -1,0 +1,7 @@
+.title {
+    @include text (rem(40px), 600, $gray4, 120%);
+    @include media ('tablet') {
+        font-size: rem(50px);
+    }
+    font-family: $font-1;
+}

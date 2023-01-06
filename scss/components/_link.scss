@@ -1,0 +1,15 @@
+.link {
+    @include text(rem(14px), 500, $gray3);
+    text-decoration: none;
+    font-family: $font-3;
+    cursor: pointer;
+    @include transition(color);
+    &:hover {
+        color: $primery;
+    }
+    @include media ('tablet') {
+        font-weight: 700;
+        font-size: rem(16px);
+        font-family: $font-2;
+    }
+}

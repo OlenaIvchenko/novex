@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Novex</title>
+  </head>
+  <body>
+    <header class="header container">
+              <a class="logo" href="/">
+                  <img class="logo__image" src="scss/images/NovexLogo.svg" alt="Novex">
+              </a>
+              <nav class="navigaton">
+                  <a class="link navigation__item" href="/blog"> Blog</a>
+                  <a class="link navigation__item" href="/careers">Careers</a>
+              </nav>
+    </header>
+    <section class="hero-section container">  
+          <div class="hero-section__content">
+              <h1 class="title hero-section__title">The Reactive Backend for your Reactive Apps</h1>
+              <p class="subtitle hero-section__subtitle">We are going to launch our website very soon. Get notify when it’s
+                  ready
+              </p>
+              <form class="form hero-section__form">
+                  <input 
+                  class="input form__input"
+                  type="email"
+                  placeholder="Email" 
+                  required>
+                  <button class="button form__button">Notify me</button>
+              </form>
+          </div>
+          <img class="hero-section__illustration" src="/scss/images/CodeMobile.svg" alt="code">
+          <div class="anchor">
+              <a class="arrow-button hero-section__arrow-button" href="#entry">
+                  <svg class="arrow-button__icon">
+                    <use xlink:href="#icon-arrow-down"/>
+                  </svg>
+              </a>
+          </div>
+      </section>
+      <div class="bg-grey">
+      <section id="entry" class="investors-section container">
+      <div class="investors__wrapper wrapper">
+          <h1 class="title investors-section__title">Our investors</h1>
+          <p class="subtitle investors-section__subtitle">Proudly backed by...</p>
+      </div>
+      <ul class="investors-section__list list-first">
+          <li class="investors-section__item-logo item-logo">
+              <a href="https://bitbucket.org/" target="_blank"><img class="investors-section__icon-logo icon-logo" src="scss/images/Bitbucked.svg"
+                      alt="bitbucket"></a>
+          </li>
+          <li class="investors-section__item-logo item-logo">
+              <a href="https://azure.microsoft.com" target="_blank"><img class="investors-section__icon-logo icon-logo" src="scss/images/MicrosoftAzure.svg"
+                      alt="microsoft"></a>
+          </li>
+          <li class="investors-section__item-logo item-logo">
+              <a href="https://bamboonetworks.com/" target="_blank"><img class="investors-section__icon-logo icon-logo" src="scss/images/Bamboo.svg" alt="bamboo"></a>
+          </li>
+          <li class="investors-section__item-logo item-logo">
+              <a href="https://www.atlassian.com/software/confluence" target="_blank"><img class="investors-section__icon-logo icon-logo"
+                      src="scss/images/Confluence.svg" alt="confluence"></a>
+          </li>
+        </ul>
+        <ul class="investors-section__list list-second">
+          <li class="investors-section__item-logo item-logo">
+              <a href="https://www.atlassian.com/" target="_blank"><img class="investors-section__icon-logo icon-logo" src="scss/images/Atlassian.svg"
+                      alt="atlassian"></a>
+          </li>
+          <li class="investors-section__item-logo item-logo">
+              <a href="https://www.pioneer.eu/" target="_blank"><img class="investors-section__icon-logo icon-logo" src="scss/images/Pioneer.svg"
+                      alt="pioneer"></a>
+          </li>
+          <li class="investors-section__item-logo item-logo">
+              <a href="https://stackoverflow.com/" target="_blank"><img class="investors-section__icon-logo icon-logo" src="scss/images/Stackoverflow.svg"
+                      alt="stackOverflow"></a>
+          </li>
+        </ul>
+      </ul>
+      <div class="investors-section__row">
+        <div class="investors-section__column">
+          <div class="investors-section__first-column">
+            <ul class="investors-section__list-mobile list-mobile">
+                <li class="investors-section__item-mlogo item-logo">
+                    <a href="https://bitbucket.org/" target="_blank"><img class="investors-section__icon-logo icon-logo" src="scss/images/Bitbucked.svg"
+                            alt="bitbucket"></a>
+                </li>
+                <li class="investors-section__item-mlogo item-logo">
+                    <a href="https://www.jetbrains.com/" target="_blank"><img class="investors-section__icon-logo icon-logo" src="scss/images/IntelliJIdeaMobile.svg" alt="intelliJIDEA"></a>
+                </li>
+                <li class="investors-section__item-mlogo item-logo">
+                    <a href="https://azure.microsoft.com" target="_blank"><img class="investors-section__icon-logo icon-logo" src="scss/images/MicrosoftAzure.svg"
+                            alt="microsoft"></a>
+                </li>
+                <li class="investors-section__item-mlogo item-logo">
+                    <a href="https://bamboonetworks.com/" target="_blank"><img class="investors-section__icon-logo icon-logo" src="scss/images/Bamboo.svg" alt="bamboo"></a>
+                </li>
+                <li class="investors-section__item-mlogo item-logo">
+                    <a href="https://www.wunderkind.co/uk/" target="_blank"><img class="investors-section__icon-logo icon-logo" src="scss/images/WunderkinderMobile.svg" alt="windercinder"></a>
+                </li>
+                <li class="investors-section__item-mlogo item-logo">
+                    <a href="https://www.atlassian.com/" target="_blank"><img class="investors-section__icon-logo icon-logo" src="scss/images/Atlassian.svg"
+                            alt="atlassian"></a>
+                </li>
+            </ul>
+          </div>
+        </div>
+        <div class="investors-section__column">
+          <div class="investors-section__second-column">
+            <ul class="investors-section__list-mobile list-mobile">   
+                <li class="investors-section__item-mlogo item-logo">
+                    <a href="https://www.pioneer.eu/" target="_blank"><img class="investors-section__icon-logo icon-logo" src="scss/images/Pioneer.svg"
+                            alt="pioneer"></a>
+                </li>
+                <li class="investors-section__item-mlogo item-logo">
+                    <a href="https://stackoverflow.com/" target="_blank"><img class="investors-section__icon-logo icon-logo" src="scss/images/Stackoverflow.svg"
+                            alt="stackOverflow"></a>
+                </li>
+        
+                <li class="investors-section__item-mlogo item-logo">
+                    <a href="https://bamboonetworks.com/" target="_blank"><img class="investors-section__icon-logo icon-logo" src="scss/images/Bamboo.svg" alt="bamboo"></a>
+                </li>
+               
+                <li class="investors-section__item-mlogo item-logo">
+                    <a href="https://www.topconpositioning.com/" target="_blank"><img class="investors-section__icon-logo icon-logo" src="scss/images/TopConMobile.svg" alt="topcon"></a>
+                </li>
+              
+                <li class="investors-section__item-mlogo item-logo">
+                    <a href="https://www.sitecore.com/company" target="_blank"><img class="investors-section__icon-logo icon-logo" src="scss/images/SitecoreMobile.svg" alt="sitecore"></a>
+                </li>
+                <li class="investors-section__item-mlogo item-logo">
+                    <a href="https://www.atlassian.com/software/confluence" target="_blank"><img class="investors-section__icon-logo icon-logo"
+                            src="scss/images/Confluence.svg" alt="confluence"></a>
+                </li>
+                </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+  </section>
+  <section class="form-section container">
+      <div class="form-section__wrapper wrapper">
+          <img class="form-section__desktop-img" src="/scss/images/Desktop.svg" alt="image">
+          <div class="form-section__box">
+              <h1 class="form-section__title title">Want to try Novex?</h1>
+              <p class="form-section__subtitle subtitle">Sign up for our alpha/beta waitlist, <br>
+                  and we'll get you in as soon as we can!
+              </p>
+            </form>
+              <form class="form form-section__form">
+                  <input 
+                  class="input form__input" 
+                  type="email" 
+                  placeholder="Email" 
+                  required>
+                  <button class="button form__button">Submit</button>
+              </form>
+          </div>
+      </div>
+  </section>
+  <section class="feedback-section container">
+      <div class="feedback-section__wrapper">
+          <img class="feedback-section__avatar" src="/scss/images/Avatar.png" alt="foto">
+          <div class="feedback-section__name name">Bob Jonson</div>
+          <div class="feedback-section__border border"></div>
+      </div>
+      <div class="feedback-section__text">
+          <img class="feedback-section__img" src="/scss/images/UpperQuotes.svg" alt="">
+          <p  class="feedback-section__subtitle subtitle"> Loved the onboarding experience!... As soon as I signed up...I got a call regarding my verification
+          procedure, which was hiring-section swiftly taken care of. I then received a call to take me around the
+          interface.
+        </p> 
+          <img class="feedback-section__img" src="/scss/images/DownQuotes.svg" alt="">
+      </div>
+  </section>
+  <div class="bg-grey bg-grey--footer">
+    <section class="hiring-section container">
+      <div class="hiring-section__content">
+        <h4 class="title hiring-section__title">Also... <br> we're hiring</h4>
+        <p class="subtitle hiring-section__subtitle">
+          Want to help us shape how the Internet will be built? Then welcome
+          on board!
+          <img
+            class="hiring-section__line"
+            src="/scss/images/line.svg"
+            alt="line"
+          />
+        </p>
+        <button class="button hiring-section__button">See vacancies</button>
+      </div>
+      <a class="add-button" href="#">
+        <svg class="add-button__icon">
+          <use xlink:href="#add" />
+        </svg>
+      </a>
+      <a class="add-button add-button--second" href="#">
+        <svg class="add-button__icon">
+          <use xlink:href="#add" />
+        </svg>
+      </a>
+      <img
+        class="hiring-section__avatar hiring-section__avatar--1"
+        src="/scss/images/Avatar1.png"
+        alt="avatar"
+      />
+      <img
+        class="hiring-section__avatar hiring-section__avatar--2"
+        src="/scss/images/Avatar2.png"
+        alt="avatar"
+      />
+      <img
+        class="hiring-section__avatar hiring-section__avatar--3"
+        src="/scss/images/Avatar3.png"
+        alt="avatar"
+      />
+      <img
+        class="hiring-section__avatar hiring-section__avatar--4 hidden-avatar"
+        src="/scss/images/Avatar4.png"
+        alt="avatar"
+      />
+    </section>
+
+    <footer class="footer container container--footer">
+      <a class="footer__logo" href="/">
+        <img class="footer__image" src="scss/images/NovexLogo.svg" alt="novex" />
+      </a>
+      <div class="social footer__social">
+        <svg class="social__icon footer__icon">
+          <use xlink:href="#twitter" />
+        </svg>
+        <svg class="social__icon footer__icon">
+          <use xlink:href="#facebook" />
+        </svg>
+        <svg class="social__icon footer__icon">
+          <use xlink:href="#instagram" />
+        </svg>
+        <svg class="social__icon footer__icon footer__icon--not-mr">
+          <use xlink:href="#discord" />
+        </svg>
+      </div>
+      <div class="footer__line"></div>
+      <p class="footer__copy">Copyrighting Novex 2022</p>
+      <div class="items footer__items">
+        <a class="footer__link footer__link--mr" href="#">Blog</a>
+        <a class="footer__link footer__link--mr" href="#">Careers</a>
+        <a class="footer__link" href="#">Terms</a>
+      </div>
+    </footer>
+  </div>
+
+   <!-- SVG -->
+   <svg style="display: none;">
+   <g
+    id="icon-arrow-down" 
+    viewBox="0 0 24 24"  
+    xmlns="http://www.w3.org/2000/svg">
+    <path 
+    fill-rule="evenodd" 
+    clip-rule="evenodd" 
+    d="M17.7007 15.1956C18.0947 15.5826 18.1004 16.2158 17.7134 16.6098L12.7134 21.7007C12.5254 21.8922 12.2683 22 12 22C11.7317 22 11.4746 21.8922 11.2866 21.7007L6.28655 16.6098C5.89956 16.2158 5.90526 15.5826 6.29929 15.1956C6.69332 14.8087 7.32646 14.8144 7.71345 15.2084L11 18.5547L11 3C11 2.44771 11.4477 2 12 2C12.5523 2 13 2.44772 13 3L13 18.5547L16.2866 15.2084C16.6735 14.8144 17.3067 14.8087 17.7007 15.1956Z"/>
+   </g>
+  </svg>
+
+  <svg style="display: none">
+    <symbol id="add" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M9.06854 6.98387H15V9.04436H9.06854V15H6.93146V9.04436H1V6.98387H6.93146V1H9.06854V6.98387Z"
+      />
+    </symbol>
+  </svg>
+
+  <svg style="display: none">
+    <symbol
+      id="twitter"
+      viewBox="0 0 17 14"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.2705 0.366609C11.5076 0.34142 11.586 0.333374 11.7888 0.333374C11.9091 0.333374 12.0157 0.362903 12.0552 0.366594C12.6476 0.444108 13.2184 0.636046 13.6421 1.06422C13.9796 1.40749 14.2848 1.38904 14.6582 1.23401C14.6653 1.23032 14.6689 1.23032 14.6761 1.22663C15.1429 1.03469 15.6132 0.839058 16.0799 0.64712C15.8394 1.38534 15.3726 1.96485 14.73 2.40779C14.7407 2.42624 14.7479 2.44839 14.7587 2.46684C15.3367 2.30444 15.9148 2.14203 16.5 1.97962C16.0871 2.58496 15.6096 3.1091 15.0387 3.54465C14.9418 3.61848 14.9023 3.6923 14.9059 3.8178C14.9454 5.1872 14.6977 6.50125 14.1842 7.76361C13.3333 9.85279 11.987 11.5175 10.0123 12.5584C7.39852 13.9352 4.70578 14.0127 1.9879 12.8832C1.53552 12.695 1.10827 12.4366 0.666664 12.2114C0.670254 12.193 0.677435 12.1708 0.681025 12.1524C2.42233 12.3074 3.9949 11.8681 5.42025 10.7608C3.92668 10.6205 2.92857 9.86017 2.3972 8.46861C2.64493 8.46861 2.87471 8.47969 3.10449 8.46492C3.33069 8.45016 3.55329 8.41325 3.77589 8.38741C3.77589 8.36895 3.77589 8.35419 3.7723 8.33574C3.03269 8.14749 2.41874 7.75623 1.94841 7.1435C1.47808 6.53077 1.24112 5.83315 1.24471 5.03218C2.00227 5.3533 2.3613 5.44558 2.65211 5.40129C1.00775 4.15369 1.01852 2.10511 1.71504 0.968248C3.47789 3.09434 5.70748 4.27181 8.43972 4.46743C8.42895 4.38623 8.42536 4.33086 8.41818 4.27919C8.16326 2.76952 8.91364 1.2783 10.2744 0.654502C10.6047 0.503166 10.8445 0.411874 11.2705 0.366609Z"
+      />
+    </symbol>
+  </svg>
+
+  <svg style="display: none">
+    <symbol
+      id="facebook"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2.5 2.5V17.5H10.4884V11.7058H8.53561V9.34046H10.4884V7.35399C10.4884 5.90929 11.6596 4.73813 13.1043 4.73813H15.1458V6.86512H13.685C13.2259 6.86512 12.8538 7.23728 12.8538 7.69633V9.3405H15.1091L14.7974 11.7058H12.8538V17.5H17.5V2.5H2.5Z"
+      />
+    </symbol>
+  </svg>
+
+  <svg style="display: none">
+    <symbol
+      id="instagram"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12.2946 2.50316C12.9718 2.51404 13.6534 2.52708 14.3196 2.67279C15.4088 2.91202 16.2833 3.46875 16.8904 4.40607C17.2564 4.97368 17.4492 5.60653 17.5281 6.272C17.6333 7.17235 17.6246 8.07922 17.6267 8.98609C17.6289 10.0952 17.6311 11.2043 17.6136 12.3135C17.6026 12.9746 17.5895 13.6379 17.4295 14.2881C17.0438 15.8539 16.0729 16.8608 14.5015 17.2871C14.0018 17.4241 13.489 17.4763 12.974 17.4807C11.2097 17.4937 9.44767 17.5046 7.68343 17.498C7.01937 17.4959 6.35312 17.4741 5.70441 17.311C4.10673 16.9087 3.10078 15.9127 2.69533 14.3251C2.5726 13.8445 2.52658 13.3552 2.5222 12.8615C2.50905 11.1869 2.49809 9.51455 2.50028 7.83999C2.50247 7.1854 2.51781 6.52862 2.64931 5.88272C2.90573 4.62572 3.56321 3.65578 4.72038 3.05337C5.27705 2.76413 5.87755 2.60103 6.50215 2.57058C7.6396 2.51839 11.5012 2.49011 12.2946 2.50316ZM7.35031 3.87108C6.91198 3.87978 6.47585 3.90587 6.0463 4.00374C5.27924 4.17989 4.67655 4.58005 4.29082 5.27379C4.02345 5.75659 3.92263 6.28722 3.90072 6.82874C3.87223 7.59207 3.8525 8.35758 3.8525 9.12092C3.85469 10.5476 3.80867 11.9764 3.91825 13.4008C3.95332 13.8466 4.05194 14.2816 4.26452 14.6818C4.69189 15.4908 5.39758 15.917 6.28299 16.0388C6.8024 16.1106 7.32839 16.1367 7.85218 16.1454C8.99182 16.1628 10.1315 16.1584 11.2711 16.1562C12.0732 16.1562 12.8775 16.1584 13.6753 16.0649C14.1289 16.0127 14.5629 15.8887 14.9508 15.643C15.6565 15.1972 16.0291 14.536 16.1386 13.7314C16.2022 13.2638 16.2329 12.7875 16.2395 12.3156C16.257 11.1304 16.2526 9.94515 16.2548 8.75991C16.2548 7.977 16.257 7.19627 16.1649 6.41771C16.1189 6.01538 16.0115 5.62828 15.8165 5.27162C15.4286 4.56917 14.8149 4.16902 14.0391 3.99721C13.4408 3.86455 12.8293 3.86455 12.2201 3.85151C11.4486 3.84063 8.19846 3.85368 7.35031 3.87108Z"
+      />
+      <path
+        d="M13.9433 10.006C13.9521 12.1242 12.2032 13.8335 10.1124 13.8596C7.94271 13.8879 6.16532 12.1329 6.17189 10.0038C6.17847 7.87255 7.90765 6.1545 10.0423 6.1458C12.1879 6.13493 13.9543 7.87908 13.9433 10.006ZM12.578 10.0125C12.5955 8.65764 11.4865 7.53547 10.1256 7.50067C8.68348 7.4637 7.55918 8.61849 7.53288 9.94944C7.50658 11.3413 8.62868 12.4765 9.99625 12.5069C11.4252 12.5396 12.5889 11.3782 12.578 10.0125Z"
+      />
+      <path
+        d="M14.0965 6.89174C13.6012 6.89392 13.1914 6.48724 13.1914 5.99575C13.1914 5.50208 13.5968 5.09105 14.0899 5.08888C14.5852 5.0867 15.006 5.49338 15.006 5.97835C15.0082 6.48724 14.6049 6.89174 14.0965 6.89174Z"
+      />
+    </symbol>
+  </svg>
+
+  <svg style="display: none">
+    <symbol
+      id="discord"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M17.4999 12.3825C17.4865 12.7953 17.4807 13.1869 17.427 13.5766C17.4194 13.6287 17.3944 13.6576 17.358 13.6846C16.848 14.0665 16.3036 14.3945 15.7342 14.6819C15.0804 15.0137 14.4075 15.2973 13.7154 15.5307C13.654 15.5519 13.6157 15.55 13.5716 15.4921C13.2802 15.1159 13.0463 14.7031 12.8354 14.2787C12.8162 14.2402 12.8143 14.2228 12.8661 14.2074C13.2783 14.0897 13.6483 13.8814 14.0202 13.6769C14.0758 13.646 14.0796 13.6267 14.0279 13.5862C13.9435 13.5226 13.8745 13.4203 13.7825 13.3933C13.6905 13.3682 13.6023 13.4685 13.5102 13.511C12.8335 13.8254 12.1184 14.0067 11.3841 14.1167C10.8128 14.2035 10.2376 14.2614 9.65864 14.2267C8.5716 14.1591 7.50565 13.9817 6.50489 13.5187C6.43012 13.484 6.35535 13.4454 6.28441 13.4049C6.2384 13.3798 6.20581 13.3779 6.16555 13.4145C6.09845 13.4782 6.02751 13.538 5.95466 13.5959C5.91632 13.6267 5.9144 13.646 5.96041 13.6711C6.33618 13.8756 6.70811 14.0878 7.12414 14.2054C7.17973 14.2209 7.17973 14.2382 7.15865 14.2826C6.94392 14.7108 6.71003 15.1256 6.41286 15.5017C6.38027 15.5442 6.35343 15.5557 6.30167 15.5384C5.05167 15.1082 3.86302 14.5565 2.77599 13.7926C2.61878 13.6827 2.55551 13.5611 2.54017 13.3721C2.46732 12.5368 2.49608 11.7054 2.59961 10.8759C2.7549 9.64136 3.08465 8.45694 3.58312 7.32075C3.91479 6.56264 4.31548 5.84504 4.78327 5.16603C4.81394 5.12166 4.8542 5.09465 4.90213 5.07344C5.57698 4.76286 6.28633 4.55067 7.00144 4.36355C7.25642 4.29604 7.51524 4.2401 7.77214 4.17451C7.84499 4.15715 7.88909 4.17065 7.92552 4.2401C8.04246 4.46194 8.16324 4.67991 8.25719 4.9114C8.27061 4.94612 8.27828 4.98084 8.33579 4.9712C9.00297 4.85931 9.67589 4.8516 10.3488 4.86124C10.7821 4.86896 11.2154 4.89597 11.6429 4.96734C11.6966 4.97698 11.7158 4.96155 11.733 4.91526C11.827 4.67991 11.9477 4.45615 12.0685 4.23431C12.1011 4.17644 12.1375 4.15329 12.2046 4.16872C13.1306 4.38285 14.049 4.6259 14.929 4.99435C15.0862 5.05993 15.2069 5.15253 15.3047 5.29913C16.2729 6.7594 16.9324 8.34699 17.266 10.0696C17.3983 10.7563 17.4788 11.4508 17.4865 12.153C17.4903 12.2378 17.496 12.3227 17.4999 12.3825ZM8.87452 10.4033C8.87643 10.0966 8.79591 9.81305 8.63679 9.55263C8.15366 8.75401 7.10688 8.67492 6.51831 9.39445C6.0371 9.9828 6.05435 10.8991 6.55857 11.4681C6.99377 11.9581 7.6782 12.0604 8.21117 11.6996C8.66746 11.3948 8.86493 10.9435 8.87452 10.4033ZM11.1195 10.2644C11.108 10.7351 11.2231 11.0901 11.432 11.3736C11.9132 12.0314 12.8143 12.0989 13.3856 11.5164C13.9416 10.9512 13.9704 9.96158 13.447 9.36551C12.9638 8.81574 12.22 8.73858 11.6678 9.19383C11.2921 9.5044 11.1272 9.92107 11.1195 10.2644Z"
+      />
+    </symbol>
+  </svg> 
+  
+  </body>
+</html>
+
+
+

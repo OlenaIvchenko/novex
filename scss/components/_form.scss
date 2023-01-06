@@ -1,0 +1,17 @@
+.form {
+    width: 100%;
+    position: relative;
+    display: flex;
+    &__input {
+        width: 100%;
+    }
+    &__button {
+        position: absolute;
+        right: 2px;
+        align-self: center;
+    }
+    @include media ('tablet') {
+        max-width: 420px;
+    }
+}
+

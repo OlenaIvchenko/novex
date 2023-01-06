@@ -1,0 +1,81 @@
+.investors-section {
+    background-color: $white2;
+    max-height: 750px;
+    padding-top: 0px;
+    padding-bottom: 108px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    @include media('tablet') {
+        display: flex;
+        align-items: stretch;
+        padding-top: 10px;
+        padding-bottom: 61px;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+      }
+
+      &__row {
+       
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 100%;
+          max-height: 310px;
+  
+          @include media ('tablet') {
+              display: none;
+          
+          }       
+      }
+
+      &__column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+      }
+      
+
+
+&__title {
+        margin-bottom: 40px;
+        text-align: left;}
+       
+      
+
+&__subtitle {
+        margin-bottom: 40px;
+        text-align: left;
+      }
+
+&__item-mlogo {
+    margin-bottom: 40px;
+}
+
+    }
+
+    .list-first {
+        display: none;
+        @include media ('tablet') {
+            @include flex (space-between);
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 76px;
+        }
+        }
+    
+    .list-second {
+            display: none;
+            @include media ('tablet') {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: 234px;
+                margin-right: 237px;
+            }
+    }
+
+   
