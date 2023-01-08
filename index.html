@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Novex</title>
   </head>
   <body>
@@ -32,7 +32,7 @@
                   <button class="button form__button">Notify me</button>
               </form>
           </div>
-          <img class="hero-section__illustration" src="/scss/images/CodeMobile.svg" alt="code">
+          <img class="hero-section__illustration" src="scss/images/CodeMobile.svg" alt="code">
           <div class="anchor">
               <a class="arrow-button hero-section__arrow-button" href="#entry">
                   <svg class="arrow-button__icon">
@@ -41,8 +41,8 @@
               </a>
           </div>
       </section>
-      <div class="bg-grey">
-      <section id="entry" class="investors-section container">
+  <div class="bg-grey">
+  <section id="entry" class="investors-section container">
       <div class="investors__wrapper wrapper">
           <h1 class="title investors-section__title">Our investors</h1>
           <p class="subtitle investors-section__subtitle">Proudly backed by...</p>
@@ -78,7 +78,6 @@
                       alt="stackOverflow"></a>
           </li>
         </ul>
-      </ul>
       <div class="investors-section__row">
         <div class="investors-section__column">
           <div class="investors-section__first-column">
@@ -138,17 +137,16 @@
           </div>
         </div>
       </div>
-      </div>
   </section>
+  </div>
   <section class="form-section container">
       <div class="form-section__wrapper wrapper">
-          <img class="form-section__desktop-img" src="/scss/images/Desktop.svg" alt="image">
+          <img class="form-section__desktop-img" src="scss/images/Desktop.svg" alt="image">
           <div class="form-section__box">
               <h1 class="form-section__title title">Want to try Novex?</h1>
               <p class="form-section__subtitle subtitle">Sign up for our alpha/beta waitlist, <br>
                   and we'll get you in as soon as we can!
               </p>
-            </form>
               <form class="form form-section__form">
                   <input 
                   class="input form__input" 
@@ -162,17 +160,17 @@
   </section>
   <section class="feedback-section container">
       <div class="feedback-section__wrapper">
-          <img class="feedback-section__avatar" src="/scss/images/Avatar.png" alt="foto">
+          <img class="feedback-section__avatar" src="scss/images/Avatar.png" alt="foto">
           <div class="feedback-section__name name">Bob Jonson</div>
           <div class="feedback-section__border border"></div>
       </div>
       <div class="feedback-section__text">
-          <img class="feedback-section__img" src="/scss/images/UpperQuotes.svg" alt="">
-          <p  class="feedback-section__subtitle subtitle"> Loved the onboarding experience!... As soon as I signed up...I got a call regarding my verification
+          <img class="feedback-section__img" src="scss/images/UpperQuotes.svg" alt="">
+          <h3  class="feedback-section__subtitle subtitle"> Loved the onboarding experience!... As soon as I signed up...I got a call regarding my verification
           procedure, which was hiring-section swiftly taken care of. I then received a call to take me around the
           interface.
-        </p> 
-          <img class="feedback-section__img" src="/scss/images/DownQuotes.svg" alt="">
+        </h3> 
+          <img class="feedback-section__img" src="scss/images/DownQuotes.svg" alt="">
       </div>
   </section>
   <div class="bg-grey bg-grey--footer">
@@ -184,7 +182,7 @@
           on board!
           <img
             class="hiring-section__line"
-            src="/scss/images/line.svg"
+            src="scss/images/line.svg"
             alt="line"
           />
         </p>
@@ -202,43 +200,51 @@
       </a>
       <img
         class="hiring-section__avatar hiring-section__avatar--1"
-        src="/scss/images/Avatar1.png"
+        src="scss/images/Avatar1.png"
         alt="avatar"
-      />
+      >
       <img
         class="hiring-section__avatar hiring-section__avatar--2"
-        src="/scss/images/Avatar2.png"
+        src="scss/images/Avatar2.png"
         alt="avatar"
-      />
+      >
       <img
         class="hiring-section__avatar hiring-section__avatar--3"
-        src="/scss/images/Avatar3.png"
+        src="scss/images/Avatar3.png"
         alt="avatar"
-      />
+      >
       <img
         class="hiring-section__avatar hiring-section__avatar--4 hidden-avatar"
-        src="/scss/images/Avatar4.png"
+        src="scss/images/Avatar4.png"
         alt="avatar"
-      />
+      >
     </section>
 
     <footer class="footer container container--footer">
       <a class="footer__logo" href="/">
-        <img class="footer__image" src="scss/images/NovexLogo.svg" alt="novex" />
+        <img class="footer__image" src="scss/images/NovexLogo.svg" alt="novex">
       </a>
       <div class="social footer__social">
+        <a href="https://twitter.com/" target="_blank">
         <svg class="social__icon footer__icon">
           <use xlink:href="#twitter" />
         </svg>
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
         <svg class="social__icon footer__icon">
           <use xlink:href="#facebook" />
         </svg>
+      </a>
+      <a href="https://www.instagram.com/" target="_blank">
         <svg class="social__icon footer__icon">
           <use xlink:href="#instagram" />
         </svg>
+      </a>
+        <a href="https://discord.com/" target="_blank">
         <svg class="social__icon footer__icon footer__icon--not-mr">
           <use xlink:href="#discord" />
         </svg>
+      </a>
       </div>
       <div class="footer__line"></div>
       <p class="footer__copy">Copyrighting Novex 2022</p>
@@ -252,7 +258,7 @@
 
    <!-- SVG -->
    <svg style="display: none;">
-   <g
+   <symbol
     id="icon-arrow-down" 
     viewBox="0 0 24 24"  
     xmlns="http://www.w3.org/2000/svg">
@@ -260,7 +266,7 @@
     fill-rule="evenodd" 
     clip-rule="evenodd" 
     d="M17.7007 15.1956C18.0947 15.5826 18.1004 16.2158 17.7134 16.6098L12.7134 21.7007C12.5254 21.8922 12.2683 22 12 22C11.7317 22 11.4746 21.8922 11.2866 21.7007L6.28655 16.6098C5.89956 16.2158 5.90526 15.5826 6.29929 15.1956C6.69332 14.8087 7.32646 14.8144 7.71345 15.2084L11 18.5547L11 3C11 2.44771 11.4477 2 12 2C12.5523 2 13 2.44772 13 3L13 18.5547L16.2866 15.2084C16.6735 14.8144 17.3067 14.8087 17.7007 15.1956Z"/>
-   </g>
+   </symbol>
   </svg>
 
   <svg style="display: none">
