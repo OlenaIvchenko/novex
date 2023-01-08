@@ -18,11 +18,11 @@
           right: 0;
           z-index: -1;
           @include background-image {
-           background-image: url('/scss/images/Novex-bg-mobile.png');
+           background-image: url('scss/images/Novex-bg-mobile.png');
          }
          @include media("tablet") {
           background-position: 40% 0%;
-          background-image: url('/scss/images/Novex-bg-desktop.png');
+          background-image: url('scss/images/Novex-bg-desktop.png');
         }
          @include media("tablet-medium") {
           background-position: 50% 0%;
